@@ -1,0 +1,44 @@
+trees is a non-linear data structure which follows certain hierarchical order.
+trees are unidirectional and can only go from top to bottom.
+the node having no parent is called  root(the topmost node).
+child node: immediate successor of a node are called children of that node.
+leaf-node: nodes having no children.
+non-leaf node/internal node: all the nodes which are not leaf nodes.
+path sequence: sequence of consective edges from source node to destination node.
+ancestor: all the predecessor nodes that are in sequence in the upward direction.
+decendant: all the successor nodes that are in sequence in the downward direction.
+sub-trees: all the descendant trees including the leaf nodes of the original tree.
+sibling: children of same parent.
+degree of a node: no. of direct children of a node.
+degree of a tree: maximum degree of any node.
+depth of a node : length of path from root till it's level.
+depth of root: 0
+height of a node: longest path from that node to the farthest leaf node.
+height of a binary tree: maximum distance between any node and the farthest leaf node.
+level of a node=depth of a node.
+level of a tree = height of a tree/ the maximum depth from the root node.
+for n nodes there will be (n-1) edges.
+
+L-2:
+for a binary tree: each node must have atmost 2 nodes(i.e. may contain 0,1,2 nodes).
+maximum no. of nodes at level i for a binary tree is 2^i.
+    maximum no. nodes at height h: n= 2^(h+1)-1.
+    min no. of nodes at height h: n= h+1.
+    max height :h= n-1.
+    min height : h=log(n+1)-1.
+
+Binary Tree and its types:
+1.full/proper/strict: each node will contain exactly 2 nodes except the leaf node.
+    maximum no. nodes at height h: n= 2^(h+1)-1.
+    min no. of nodes at height h: n= 2h+1.
+    max height :h= (n-1)/2.
+    min height : h=log(n+1)-1.
+2.Complete binary tree: all levels are completely filled (except possible the last level) and 
+the last level has nodes as left as possible.
+    maximum no. nodes at height h: n= 2^(h+1)-1.
+    min no. of nodes at height h: n= 2^h.
+    max height :h= logn.
+    min height : h=log(n+1)-1.
+3.Perfect Binary Tree: All internal nodes have 2 children and all leaves are at same level.
+   a perfect binary tree is both a complete and full binary tree but the vice-veras is not true.
+4.Degenerate binary tree: all internal nodes must contain only 1 node, either left or right.
