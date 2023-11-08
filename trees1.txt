@@ -42,3 +42,5 @@ the last level has nodes as left as possible.
 3.Perfect Binary Tree: All internal nodes have 2 children and all leaves are at same level.
    a perfect binary tree is both a complete and full binary tree but the vice-veras is not true.
 4.Degenerate binary tree: all internal nodes must contain only 1 node, either left or right.
+
+//construct a BT if preorder traversal output is given only

@@ -10,7 +10,7 @@ struct TreeNode {
 
 // Function to create a new tree node
 struct TreeNode* createNode(int key) {
-    struct TreeNode* newNode = (struct TreeNode*)malloc(sizeof(struct TreeNode));
+    struct TreeNode* newNode = malloc(sizeof(struct TreeNode));
     newNode->key = key;
     newNode->left = newNode->right = NULL;
     return newNode;
